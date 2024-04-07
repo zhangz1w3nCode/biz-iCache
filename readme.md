@@ -12,15 +12,25 @@
         
         3️⃣ SpringBoot
         
-        4️⃣ Spring(BeanPostProcessor、AOP)
+        4️⃣ Spring(BeanPostProcessor、AOP、定时任务)
         
-        5️⃣ 设计模式(工厂模式、门面模式、策略模式、适配器模式、装饰者模式、单例模式) 
+        5️⃣ 设计模式(工厂模式、门面模式、模版模式、适配器模式、装饰者模式、单例模式) 
        
         6⃣️ Dubbo(对外提供API、泛化调用)
        
         7⃣️ Zookeeper(注册中心)
        
-        8⃣️ Docker(容器化部署以及调试)
+        8⃣️ Docker(容器化快速部署项目、联调、测试)
+       
+        9⃣️️ Maven(提供依赖管理、对外Deploy Api)
+       
+        9⃣️️ MySQL(持久化快照信息)
+       
+        9⃣️️ Sharding JDBC(对存储快照数据的表 分库分表 降低单表压力)
+       
+        9⃣️ Apollo(核心参数集中管理(zk地址、服务端口号等)、热更新配置)
+       
+        9⃣️ GitLab(代码仓库托管)
 ### 📌 Content 
 - [ ] 整体架构
     - [ ] [Chapter1.架构图](https://github.com/zhangz1w3nCode/RedisNote/blob/main/%E5%BC%95%E8%A8%80/%E7%AC%AC1%E7%AB%A0-%E5%BC%95%E8%A8%80%F0%9F%92%AC.md)
