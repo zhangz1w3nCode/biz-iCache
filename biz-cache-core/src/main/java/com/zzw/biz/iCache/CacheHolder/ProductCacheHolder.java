@@ -1,7 +1,7 @@
-package com.zzw.iCache.CacheHolder;
+package com.zzw.biz.iCache.CacheHolder;
 
 
-import com.zzw.iCache.Entity.ProductInfo;
+import com.zzw.biz.iCache.Entity.ProductInfo;
 import com.zzw.iCache.autoconfigure.annocation.iCache;
 import com.zzw.iCache.core.Cache.Cache;
 import lombok.extern.slf4j.Slf4j;
@@ -31,7 +31,7 @@ public class ProductCacheHolder {
      *
      * @return
      */
-    public ProductInfo getProductBySkuSn(int areaId, Date tmAccount, String skuSn) {
+    public ProductInfo getProductBySkuSn(int areaId, Date  tmAccount, String skuSn) {
         return productCache.get(buildAreaSkuKey(areaId, tmAccount, skuSn));
     }
 

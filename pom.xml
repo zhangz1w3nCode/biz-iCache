@@ -13,13 +13,13 @@
 
     <packaging>pom</packaging>
     <groupId>com.zzw</groupId>
-    <artifactId>web-iCache</artifactId>
+    <artifactId>biz-iCache</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>web-cache</name>
     <description>web-cache</description>
 
     <modules>
-        <module>web-cache-core</module>
+        <module>biz-cache-core</module>
     </modules>
 
 </project>

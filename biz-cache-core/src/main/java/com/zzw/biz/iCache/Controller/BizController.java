@@ -1,8 +1,8 @@
-package com.zzw.iCache.Controller;
+package com.zzw.biz.iCache.Controller;
 
-import com.zzw.iCache.CacheHolder.ProductCacheHolder;
-import com.zzw.iCache.Entity.ProductCacheRequest;
-import com.zzw.iCache.Entity.ProductInfo;
+import com.zzw.biz.iCache.CacheHolder.ProductCacheHolder;
+import com.zzw.biz.iCache.Entity.ProductCacheRequest;
+import com.zzw.biz.iCache.Entity.ProductInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

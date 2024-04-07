@@ -1,16 +1,16 @@
-package com.zzw.iCache.Entity;
+package com.zzw.biz.iCache.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProductInfo {
+public class ProductCacheRequest {
     int areaId;
     String skuSn;
-    String productName;
-    String productDesc;
-
+    Date tmAccount;
 }

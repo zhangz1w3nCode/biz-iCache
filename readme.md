@@ -1,9 +1,9 @@
-## web-iCache💤
+## biz-iCache💤
 
 ### 📌 Preview
-        1️⃣ web-iCache是iCache服务的web端服务 对外提供http接口
+        1️⃣ biz-iCache是iCache服务的业务端服务 去使用iCache提供的缓存框架
         
-        2️⃣ web-iCache····
+        2️⃣ biz-iCache····
 
 ### 📌 Technology stack
         1️⃣ Java(反射、SPI、Annotation)
