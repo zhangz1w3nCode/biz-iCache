@@ -9,9 +9,7 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProductInfo implements Serializable {
-    int areaId;
-    String skuSn;
-    String productName;
-    String productDesc;
+public class User implements Serializable {
+    String id;
+    String name;
 }
