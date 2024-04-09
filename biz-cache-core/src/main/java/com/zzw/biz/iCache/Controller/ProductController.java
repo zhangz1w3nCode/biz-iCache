@@ -13,7 +13,7 @@ import java.util.Date;
 @Slf4j
 @RestController
 @RequestMapping("/biz")
-public class BizController {
+public class ProductController {
 
     @Autowired
     private ProductCacheHolder cacheHolder;
